@@ -1,0 +1,231 @@
+.Event {
+    display: inline-block;
+
+}
+
+.event-container {
+    /* width: 20%; */
+    margin: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: ghostwhite;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+    width: 300px;
+}
+
+@media only screen and (min-width: 701px) and (max-width: 940px) {
+
+    .event-container {
+        width: 35%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        background-color: ghostwhite;
+        border-radius: 15px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+
+    .event-container {
+        width: 50%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        background-color: ghostwhite;
+        border-radius: 15px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+
+    .event-container {
+        width: 70%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        background-color: ghostwhite;
+        border-radius: 15px;
+        display: block;
+    }
+}
+
+.Event .name {
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 2px;
+}
+
+.Event .description {
+    height: inherit;
+    padding: 10px;
+}
+
+.Event img {
+    height: 180px;
+    filter: brightness(60%);
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    width: 100%;
+}
+
+.Event .likes {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.Event .buttons-event {
+    /* position: relative; */
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 3px;
+    /* background-color: transparent; */
+}
+.button-delete{
+margin-left: 4px;
+}
+.Event .likes .red {
+    color: red;
+    background-color: transparent;
+}
+
+.Event .likes i {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    left: 20px;
+    color: black;
+}
+
+.Event .likes span {
+    position: absolute;
+    bottom: 2px;
+    left: 50px;
+}
+
+.Event .buttons-event .button-edit {
+    width: 50px;
+    /* position: absolute; */
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #282c34;
+    margin:0 auto;
+    /* border-radius: 3px; */
+}
+
+.Event .button-delete:nth-child(1) {
+    /* right: 3em; */
+    background-color: black;
+    color: ghostwhite;
+    /* margin: auto; */
+    margin-bottom: 2px;
+}
+
+.Event 
+.button-delete:nth-child(2) {
+    /* right: 4em; */
+    background-color: crimson;
+    color: ghostwhite;
+    /* margin: auto; */
+}
+
+.Event .details:hover {
+    filter: brightness(40%);
+    cursor: pointer;
+}
+
+/* .Event {
+    width: 20%;
+    margin: 10px;
+    background-color: ghostwhite;
+    border-radius: 15px;
+    display: inline-block;
+}
+/* @media only screen and (max-width: 900px) {
+.Event {
+        width: 100%;
+        margin: 10px;
+        background-color: ghostwhite;
+        border-radius: 15px;
+        display: block;
+    }
+} 
+.Event .name {
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 2px;
+}
+.Event .description {
+    height: inherit;
+    padding: 10px;
+}
+
+.Event img {
+    height: 180px;
+    filter: brightness(60%);
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    width: 100%;
+}
+
+.Event .likes, .buttons {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.Event .likes .blue {
+    color: red;
+}
+
+.Event .likes i {
+    width: 20px;
+    height: 20px;
+    background-color: ghostwhite;
+    position: absolute;
+    left: 20px;
+    color: black;
+}
+
+.Event .likes span {
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+}
+
+.Event .buttons .links {
+    width: 50px;
+    position: absolute;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #282c34;
+    border-radius: 3px;
+}
+
+.Event .links:nth-child(1) {
+    right: 100px;
+    background-color: black;
+    color: ghostwhite;
+}
+
+.Event .links:nth-child(2) {
+    right: 20px;
+    background-color: crimson;
+    color: ghostwhite;
+}
+
+.Event .details:hover {
+    filter: brightness(40%);
+    cursor: pointer;
+} */

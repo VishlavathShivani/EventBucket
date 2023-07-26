@@ -1,0 +1,49 @@
+.Register, .Login, .Create, .Edit, .Details {
+    background-color: ghostwhite;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 2px 2px 2px 2px;
+}
+
+.title {
+    padding-top: 5px;
+    padding-left: 3px;
+    font-size: 20px;
+    font-weight: 400;
+    margin:0 auto;
+}
+
+.input {
+    margin: 25px 0;
+    padding: 3px;
+}
+
+.input input {
+    width: 96%;
+    height: 30px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    padding: 6px 6px 5px 10px;
+}
+
+.input input::placeholder {
+    color: lightslategrey;
+}
+
+button {
+    width:auto;
+    height: 35px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border: transparent;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+    font-size: 14px;
+}
+

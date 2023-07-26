@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.Profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+    margin: 0px auto;
+}
+
+.Profile .likedEvents,
+.createdEvents {
+    /* max-width: 100%; */
+    margin: 0 auto;
+}
+
+.Profile h1 {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: none; */
+    border-radius: 3px;
+    padding: 3px 5px 5px 5px;
+    /* width: 350px; */
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.Profile .Event {
+    /* width: 100%; */
+    height: inherit;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.Profile .event-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: ghostwhite;
+    border-radius: 15px;
+    display: block;
+}
+/* 
+.Profile .Event .buttons {
+    padding-bottom: 0px;
+    margin-top: 0;
+} */
+
+.Profile .profile-data {
+    /* width: 30%;
+    height: 30%; */
+    height: max-content;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    /* padding: 20px 15px 1px 15px; */
+    
+}
+
+.Profile .profile-data img {
+    width: 40%;
+    border-radius: 50%;
+    display: block;
+    margin:0 auto;
+    /* padding-left: 30px; */
+}
+
+.Profile .profile-data .name {
+    font-weight: bold;
+    /* padding-left: 43%; */
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Profile .profile-data .username {
+    color: #017fbe;
+    /* padding-left: 3%; */
+    display: block;
+    text-align: center;
+        margin: 0 auto;
+}
+
+.Profile .profile-data .buttons-profile {
+    display: flex;
+    justify-content: center;
+    padding-left: 2%;
+    /* box-sizing: content-box; */
+}
+.Profile .profile-data .liked-events {
+    /* padding-left: 3%;*/
+    text-align: center; 
+}
+.Profile .profile-data .created-events {
+    /* padding-left: 3%; */
+    text-align: center;
+}
+.Profile .profile-data .buttons-profile button {
+    height:max-content;
+    margin: 10px 10px;
+}

@@ -1,0 +1,32 @@
+.Home {
+    text-align: center;
+}
+
+.Home h1 {
+    background-color: #222222;
+    /* border-radius: 5px; */
+    width: 100%;
+    padding: 0.5em;
+    font-size: 2em;
+    margin: 0 auto;
+    /* margin-top: 1.05em; */
+    color: #ffffff;
+
+}
+
+.Events {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 250px 0 250px;
+}
+
+.Events .Event {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.car .carItem {
+    height: 650px;
+    object-fit: fill;
+}
